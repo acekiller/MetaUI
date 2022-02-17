@@ -32,8 +32,8 @@
 		013AE6A3E9CB05DF13FA800A /* Pods-MetaUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-MetaUI_Example/Pods-MetaUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		023761EA7F7C267551F5F7CE /* Pods-MetaUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MetaUI_Tests/Pods-MetaUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		09DE650DFA62E71589669E2F /* Pods_MetaUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50DDC1A697F2877C1DDF440C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		56860FF9B4073CA682221938 /* MetaUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MetaUI.podspec; path = ../MetaUI.podspec; sourceTree = "<group>"; };
+		50DDC1A697F2877C1DDF440C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56860FF9B4073CA682221938 /* MetaUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MetaUI.podspec; path = ../MetaUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MetaUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* MetaUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetaUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		71D3C0A1FB52549F694D83FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71D3C0A1FB52549F694D83FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B5DD2D5C8BB85EF1A817F114 /* Pods_MetaUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MetaUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F565B36FAFA9A375AB2CDA11 /* Pods-MetaUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetaUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-MetaUI_Tests/Pods-MetaUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				023761EA7F7C267551F5F7CE /* Pods-MetaUI_Tests.debug.xcconfig */,
 				F565B36FAFA9A375AB2CDA11 /* Pods-MetaUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
